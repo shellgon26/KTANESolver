@@ -1,0 +1,8 @@
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\bin\Debug\mazemodule.exe
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\bin\Debug\mazemodule.pdb
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\bin\Debug\mazemodule.xml
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\obj\x86\Debug\mazemodule.Resources.resources
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\obj\x86\Debug\mazemodule.vbproj.GenerateResource.Cache
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\obj\x86\Debug\mazemodule.exe
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\obj\x86\Debug\mazemodule.xml
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\mazemodule\mazemodule\obj\x86\Debug\mazemodule.pdb

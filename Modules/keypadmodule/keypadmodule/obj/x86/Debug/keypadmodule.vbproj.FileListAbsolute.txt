@@ -1,0 +1,8 @@
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\bin\Debug\keypadmodule.exe
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\bin\Debug\keypadmodule.pdb
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\bin\Debug\keypadmodule.xml
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\obj\x86\Debug\keypadmodule.Resources.resources
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\obj\x86\Debug\keypadmodule.vbproj.GenerateResource.Cache
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\obj\x86\Debug\keypadmodule.exe
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\obj\x86\Debug\keypadmodule.xml
+\\ad.rmgs\rmgsstudents\students\yo13\s3cweeks\documents\visual studio 2010\Projects\keypadmodule\keypadmodule\obj\x86\Debug\keypadmodule.pdb
