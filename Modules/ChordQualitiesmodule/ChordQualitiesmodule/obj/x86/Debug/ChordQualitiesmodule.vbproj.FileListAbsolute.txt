@@ -1,0 +1,8 @@
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\bin\Debug\ChordQualitiesmodule.exe
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\bin\Debug\ChordQualitiesmodule.pdb
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\bin\Debug\ChordQualitiesmodule.xml
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\obj\x86\Debug\ChordQualitiesmodule.Resources.resources
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\obj\x86\Debug\ChordQualitiesmodule.vbproj.GenerateResource.Cache
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\obj\x86\Debug\ChordQualitiesmodule.exe
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\obj\x86\Debug\ChordQualitiesmodule.xml
+\\ad.rmgs\rmgsstudents\Students\yo13\s3cweeks\Documents\Visual Studio 2010\Projects\ChordQualitiesmodule\ChordQualitiesmodule\obj\x86\Debug\ChordQualitiesmodule.pdb
