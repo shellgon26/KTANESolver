@@ -1,0 +1,33 @@
+E:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.exe.config
+E:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.exe
+E:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.pdb
+E:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.xml
+E:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbprojAssemblyReference.cache
+E:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.Resources.resources
+E:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbproj.GenerateResource.cache
+E:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbproj.CoreCompileInputs.cache
+E:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.exe
+E:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.xml
+E:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.pdb
+D:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.exe.config
+D:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.exe
+D:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.pdb
+D:\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.xml
+D:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.Resources.resources
+D:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbproj.GenerateResource.cache
+D:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.exe
+D:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.xml
+D:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.pdb
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.exe.config
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.exe
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.pdb
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\bin\Debug\KTANESolverCons.xml
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbprojAssemblyReference.cache
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.Resources.resources
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbproj.GenerateResource.cache
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbproj.CoreCompileInputs.cache
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.exe
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.xml
+C:\Users\fcGuest\Documents\Visual Studio 2019\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.pdb
+D:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbprojAssemblyReference.cache
+D:\KTANESolverCons\KTANESolverCons\obj\Debug\KTANESolverCons.vbproj.CoreCompileInputs.cache
