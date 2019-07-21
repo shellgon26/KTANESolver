@@ -1,0 +1,11 @@
+E:\someonessolution\someonessolution\obj\Debug\someonessolution.vbprojAssemblyReference.cache
+E:\someonessolution\someonessolution\obj\Debug\someonessolution.Resources.resources
+E:\someonessolution\someonessolution\obj\Debug\someonessolution.vbproj.GenerateResource.cache
+E:\someonessolution\someonessolution\obj\Debug\someonessolution.vbproj.CoreCompileInputs.cache
+E:\someonessolution\someonessolution\bin\Debug\someonessolution.exe.config
+E:\someonessolution\someonessolution\bin\Debug\someonessolution.exe
+E:\someonessolution\someonessolution\bin\Debug\someonessolution.pdb
+E:\someonessolution\someonessolution\bin\Debug\someonessolution.xml
+E:\someonessolution\someonessolution\obj\Debug\someonessolution.exe
+E:\someonessolution\someonessolution\obj\Debug\someonessolution.xml
+E:\someonessolution\someonessolution\obj\Debug\someonessolution.pdb
