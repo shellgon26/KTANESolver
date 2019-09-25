@@ -1,4 +1,4 @@
-﻿
+
 Module ModuleStartup
     Sub CheckEdgework()
         If CheckSerial() = True Then
@@ -7,6 +7,14 @@ Module ModuleStartup
 
                 End If
             End If
+        End If
+    End Sub
+    Sub initializemodulecount()
+        Dim temp
+        voice.Speak("Number of modules: ")
+        temp = Console.ReadLine()
+        If checkint(temp) = True Then
+            modulecount = temp
         End If
     End Sub
     Function CheckSerial()
@@ -46,7 +54,7 @@ Module ModuleStartup
     Sub inputserial()
         Do
             voice.Speak("Enter Serial Number: ")
-            serial = Console.ReadLine
+            serial = LCase(Console.ReadLine)
         Loop Until CheckSerial() = True
     End Sub
     Function checkint(input)
@@ -116,23 +124,9 @@ Module ModuleStartup
                 litcheck = UCase(Console.ReadLine())
                 If (litcheck = "Y") Or (litcheck = "YES") Or (litcheck = "TRUE") Then
                     inds(index).lit = True
-                    litunlit(0) = litunlit(0) + 1
-                Else
-                    litunlit(1) = litunlit(1) + 1
                 End If
             End If
         Loop
-    End Sub
-    Sub inputstartingtime(time)
-        Dim valid = False
-        Do
-            Console.Write("Input time to complete the bomb: ")
-            Dim temp1 = Console.ReadLine
-            If checkint(temp1) Then
-                time = temp1
-                valid = True
-            End If
-        Loop Until valid = True
     End Sub
     Function indicatorcount()
         Dim count As Integer
