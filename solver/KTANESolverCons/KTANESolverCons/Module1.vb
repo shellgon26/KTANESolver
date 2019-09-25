@@ -1,9 +1,7 @@
-﻿Imports System.Speech.Recognition
 Imports System.Speech.Synthesis
-Imports System.Threading
-Imports System.Globalization
 Module Module1
-
+    Public speechdetect As Boolean = False
+    Public mostrecentspeech As String
     Structure Tindicators
         Dim text As String
         Dim lit As Boolean
@@ -13,40 +11,29 @@ Module Module1
         Dim name As String
         Dim count As Integer
     End Structure
-    Dim recogniser As New SpeechRecognizer
-    Dim grammerbuilderStartStop As New GrammarBuilder
-
     Public voice As New SpeechSynthesizer
     Public serial As String
     Public inds(11) As Tindicators
-    Public solvedmodules, modulecount, batteries, widgets, plates, holders, aabats, Dbats As Integer
+    Public modulecount, solvedmodules, batteries, widgets, plates, holders, aabats, Dbats As Integer
     Public ports(6) As TPort
-    Public time As Integer
-    Public litunlit(1) As Integer
     Sub Main()
+        InitialiseSpeech()
         initializeports()
         initializeinds()
-        inputstartingtime(time)
+        initializemodulecount()
         Edgework()
         Console.Clear()
         SolveModule()
         Console.ReadLine()
     End Sub
-    Function speechregogniser(words() As String)
-        For i = 0 To words.Length
-            grammerbuilderStartStop.Append(words(i))
-        Next
-        Dim grammerstartstop As New Grammar(grammerbuilderStartStop)
-        grammerstartstop.Enabled = True
-        recogniser.LoadGrammar(grammerstartstop)
-    End Function
     Sub SolveModule()
         Dim complete As Boolean
         Dim modulechoice As String
         Do
-            voice.Speak("Enter Module to Solve: ")
+        voice.Speak("Enter Module to Solve: ")
             modulechoice = LCase(Console.ReadLine())
-            Select Case modulechoice
+            solvedmodules = +1
+            Select Case LCase(modulechoice)
                 Case "button"
                     SolveButton()
                 Case "the button"
@@ -58,26 +45,33 @@ Module Module1
                 Case "complicated wires"
                     solvecompwires()
                 Case "password"
-                    solvepassword()
-                Case "extended password"
-                    solveextendedpassword()
-                Case "extpassword"
-                    solveextendedpassword()
-                Case "bitwise"
-                    solvebitwise()
-                Case "bitwise operators"
-                    solvebitwise()
+                    Solvepassword()
+                Case "combination Lock"
+                    solvecombinationlock()
                 Case "maze"
                     solvemaze()
+                Case "keypad"
+                    solvekeypad()
+                Case "chord qualities"
+                    solvechordqs()
                 Case Else
                     voice.Speak("Unrecognised")
+                    solvedmodules -= 1
             End Select
-            If solvedmodules = modulecount Then
+            If modulecount = solvedmodules Then
                 complete = True
+                voice.Speak("Bomb Complete!")
             End If
         Loop Until complete = True
     End Sub
-
+    Sub inputletters(ByRef chars(,) As Char, ByRef extendedpassword As Integer)
+        For i = 0 To (4 + extendedpassword)
+            For j = 0 To 5
+                Console.Write("Enter Char number " & j & " In position " & i & ": ")
+                chars(i, j) = Console.ReadLine
+            Next
+        Next
+    End Sub
     Function inputwire(ByVal pos As Integer)
         Dim temp As String
         Do
@@ -89,17 +83,17 @@ Module Module1
     Function checkeven(ByVal number As Integer)
         If number Mod 2 = 0 Then
             Return True
-        Else Return False
+        Else : Return False
         End If
     End Function
-    Function findlastofcolour(colour, wirecount, wires())
+    Function findlastofcolour(ByVal colour, ByVal wirecount, ByVal wires())
         For i = (wirecount - 1) To 0 Step -1
             If wires(i) = colour Or wires(i) = colour(0) Then
                 Return i
             End If
         Next
     End Function
-    Function searchforwire(colour, wirecount, wires())
+    Function searchforwire(ByVal colour, ByVal wirecount, ByVal wires())
         Dim count As Integer = 0
         For i = 0 To wirecount - 1
             If wires(i) = colour Or wires(i) = colour(0) Then
@@ -114,5 +108,15 @@ Module Module1
             wires(i) = LCase(Console.ReadLine)
         Next
     End Sub
-
+    Function Checkforletterinserial(ByVal letter)
+        For i = 0 To 5
+            If Mid(serial, i, 1) = letter Then
+                Return True
+            End If
+        Next
+        Return False
+    End Function
+    Sub resetspeech()
+        speechdetect = False
+    End Sub
 End Module
